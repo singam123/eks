@@ -39,7 +39,7 @@ aws-cli/2.0.8 Python/3.7.5 Windows/10 botocore/2.0.0dev12
 
 ### Step-01-03: Configure AWS Command Line using Security Credentials
 - Go to AWS Management Console --> Services --> IAM
-- Select the IAM User: kalyan 
+- Select the IAM User: username
 - **Important Note:** Use only IAM user to generate **Security Credentials**. Never ever use Root User. (Highly not recommended)
 - Click on **Security credentials** tab
 - Click on **Create access key**
@@ -47,8 +47,8 @@ aws-cli/2.0.8 Python/3.7.5 Windows/10 botocore/2.0.0dev12
 - Go to command line and provide the required details
 ```
 aws configure
-AWS Access Key ID [None]: ABCDEFGHIAZBERTUCNGG  (Replace your creds when prompted)
-AWS Secret Access Key [None]: uMe7fumK1IdDB094q2sGFhM5Bqt3HQRw3IHZzBDTm  (Replace your creds when prompted)
+AWS Access Key ID [None]: ABCDEFGHIAZBERT  (Replace your creds when prompted)
+AWS Secret Access Key [None]: uMe7fumK1IdDB094q2sGFhM5Bqt3HQRw3I  (Replace your creds when prompted)
 Default region name [None]: us-east-1
 Default output format [None]: json
 ```

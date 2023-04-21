@@ -1,11 +1,6 @@
 # Create EKS Cluster & Node Groups
 
 ## Step-00: Introduction
-- Understand about EKS Core Objects
-  - Control Plane
-  - Worker Nodes & Node Groups
-  - Fargate Profiles
-  - VPC
 - Create EKS Cluster
 - Associate EKS Cluster to IAM OIDC Provider
 - Create EKS Node Groups
